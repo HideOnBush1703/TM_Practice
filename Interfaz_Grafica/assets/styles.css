@@ -1,0 +1,116 @@
+.header{
+    background-color: rgb(255, 0, 212);
+    display: flex;
+    margin-bottom: 10px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.sm_logo{
+    height: 90%;
+    margin-right: auto;
+}
+.main_title{
+    text-align: center;
+    padding-right: 40%;
+}
+
+/** Cinta de navegación **/
+.contenedor_navegacion{
+    background-color: rgb(255, 0, 212);
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    height: 30px;
+}
+
+/** Estilo general para los botones **/
+.boton{
+    background-color: chartreuse;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 500;
+    border: 0px solid;
+    width: 90%;
+}
+
+/** Boton 1 **/
+.boton.edo_1{
+    padding-right: 5px;
+}
+.edo_1:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+/** Boton 2 **/
+.boton.edo_2{
+    padding-right: 5px;
+}
+.edo_2:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+/** Boton 3 **/
+.boton.edo_3{
+    padding-right: 5px;
+}
+.edo_3:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+/** Boton 4 **/
+.boton.edo_4{
+    padding-right: 5px;
+}
+.edo_4:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+/** Boton 5 **/
+.boton.edo_5{
+    padding-right: 5px;
+}
+.edo_5:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+/** Pages **/
+.Pages{
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/** Página 1**/
+.div_parametros{
+    width: 40%;
+    border: 3px solid aqua;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 5px;
+}
+
+.div_grafica{
+    width: 60%;
+    border: 3px solid aqua;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+
+.div_flex{
+    display: flex;
+}
